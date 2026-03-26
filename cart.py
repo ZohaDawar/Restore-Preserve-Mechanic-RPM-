@@ -18,7 +18,6 @@ def view_cart():
     """
 
     cursor.execute(query)
-
     rows = cursor.fetchall()
 
     cursor.close()
